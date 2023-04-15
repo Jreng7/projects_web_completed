@@ -1,4 +1,5 @@
-let nome = "Josué"
-let sobrenome = "Jacinto"
-let idade = 32
+let namei = "Josué"
+let age = 32
 
+console.log(namei)
+console.log(age)

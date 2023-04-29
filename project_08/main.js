@@ -1,11 +1,8 @@
 
+let grade = prompt('Digite a nota do aluno: ')
 
-let nota = 7.7
-
-if(nota >= 7) {
-    console.log(`Parabéns, você foi aprovado, sua nota foi: ${nota}`)
-} else if (nota <= 5.9) {
-    console.log('Infelizmente você foi reprovado.')
-} else {
-    console.log('Você está de recuperação.')
+if (grade > 100) {
+    alert('Nota inválida.')
+} else if (grade >= 90 ) {
+    console.log('A nota é: A')
 }

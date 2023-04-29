@@ -1,9 +1,6 @@
 
-let firstName = prompt('Digite o seu primeiro nome: ')
-let lastName = prompt('Digite o seu sobrenome: ')
+let celcius = prompt('Digite a temperatura em Celcius: ')
 
-let age = parseInt(prompt('Digite a sua idade: '))
+fahrenheit = celcius * 1.8 + 32
 
-age = age +
-
-console.log(`Olá ${firstName} ${lastName}, seja bem-vindo! A sua idade é: ${age}`)
+alert(`A temperatura ${celcius} em Fahrenheit é ${fahrenheit}`)

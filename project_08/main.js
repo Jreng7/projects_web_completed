@@ -1,9 +1,9 @@
 
-let firstName = prompt('Digite o seu primeiro nome: ')
-let lastName = prompt('Digite o seu sobrenome: ')
 
-let age = parseInt(prompt('Digite a sua idade: '))
+let nota = 7.7
 
-age = age +
-
-console.log(`Olá ${firstName} ${lastName}, seja bem-vindo! A sua idade é: ${age}`)
+if(nota >= 7) {
+    console.log(`Parabéns, você foi aprovado, sua nota foi: ${nota}`)
+} else {
+    console.log('Infelizmente você foi reprovado.')
+}

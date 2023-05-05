@@ -11,3 +11,10 @@ h1 {
     text-shadow: 2px 2px 7px;
 }
 
+html {
+    font-size: 67,5%;
+}
+
+p {
+    color: #fff;
+}

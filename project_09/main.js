@@ -7,4 +7,6 @@ if (idade >= idadeMinina && temTitulo == 'sim') {
     alert('Você pode votar.')
 } else if (idade >= idadeMinina && temTitulo == 'não') {
     alert('Você não pode votar, pois não tem título.')
-} else if ()
+} else if (idade < idadeMinina && temTitulo == 'sim' || temTitulo == 'não') {
+    alert('Você não tem a idade mínima para votar.')
+}

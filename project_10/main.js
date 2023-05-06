@@ -1,9 +1,9 @@
 
-let firstName = prompt('Digite o seu primeiro nome: ')
-let lastName = prompt('Digite o seu sobrenome: ')
 
-let age = parseInt(prompt('Digite a sua idade: '))
+let valorConta = 0
+let gorjeta = 0
+let valorTotal = 0
 
-age = age +
+valorConta = prompt('Digite o valor da conta: ')
+gorjeta = prompt('Digite a gorjeta (decima)%: ')
 
-console.log(`Olá ${firstName} ${lastName}, seja bem-vindo! A sua idade é: ${age}`)

@@ -6,21 +6,21 @@ if (grade > 100) {
 } 
 
 else if (grade >= 90 ) {
-    console.log('A nota é: A')
+    alert('Aluno nota A')
 }
 
 else if (grade >= 80 ) {
-    console.log('A nota é: B')
+    alert('Aluno nota B')
 }
 
 else if (grade >= 70 ) {
-    console.log('A nota é: C')
+    alert('Aluno nota C')
 }
 
 else if (grade >= 60 ) {
-    console.log('A nota é: D')
+    alert('Aluno nota D')
 }
 
 else {
-    console.log('Aluno reprovado.')
+    alert('Aluno nota F')
 }

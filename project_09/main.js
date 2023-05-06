@@ -1,9 +1,10 @@
 
-let firstName = prompt('Digite o seu primeiro nome: ')
-let lastName = prompt('Digite o seu sobrenome: ')
+let idade = prompt('Digite a sua idade: ')
+let temTitulo = prompt('Você possui título de eleitor? (Sim/Não)')
+let idadeMinina = 18
 
-let age = parseInt(prompt('Digite a sua idade: '))
-
-age = age +
-
-console.log(`Olá ${firstName} ${lastName}, seja bem-vindo! A sua idade é: ${age}`)
+if (idade >= idadeMinina && temTitulo == 'sim') {
+    alert('Você pode votar.')
+} else if (idade >= idadeMinina && temTitulo == 'não') {
+    alert('Você não pode votar, pois não tem título.')
+} else if ()

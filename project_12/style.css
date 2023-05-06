@@ -11,3 +11,9 @@ h1 {
     text-shadow: 2px 2px 5px;
 }
 
+table {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+}
